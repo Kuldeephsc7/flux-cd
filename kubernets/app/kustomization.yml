@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   interval: 15m
-  path: "./kubernetes/default"
+  path: "./kubernets/default"
   prune: true
   sourceRef:
     kind: GitRepository
