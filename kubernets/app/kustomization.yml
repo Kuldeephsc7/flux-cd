@@ -5,9 +5,12 @@ metadata:
   namespace: default
 spec:
   interval: 15m
-  path: "./kubernets/default"
+  path: "./kubernetes/default"
   prune: true
   sourceRef:
     kind: GitRepository
     name: example-app-1
+  secretRef:
+    name: git-auth
+
 
